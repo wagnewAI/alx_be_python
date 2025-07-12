@@ -4,10 +4,8 @@ number2 = 5
 
 # Perform arithmetic operations
 addition = number1 + number2
-subtraction = number1 - number2
-multiplication = number1 * number2
-
-# Print the results
 print(f"Addition of {number1} and {number2} is {addition}")
+subtraction = number1 - number2
 print(f"Subtraction of {number1} and {number2} is {subtraction}")
+multiplication = number1 * number2
 print(f"Multiplication of {number1} and {number2} is {multiplication}")
