@@ -6,9 +6,9 @@ class BankAccount:
     def deposit(self, amount):
         if amount > 0:
             self.__account_balance += amount
-            return f"Deposited: ${amount}"
+            return True
         else:
-           return "Deposit amount must be positive."
+           return False
 
     def withdraw(self, amount):
         if amount <= self.__account_balance:
