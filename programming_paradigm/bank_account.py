@@ -17,6 +17,6 @@ class BankAccount:
             print("Insufficient funds.")
             return False
 
-   def display_balance(self):
+    def display_balance(self):
        """Return the current balance as a formatted string."""
        return f"Current Balance: ${self.__account_balance:.2f}"
